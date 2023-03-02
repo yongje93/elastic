@@ -1,5 +1,7 @@
-package com.elastic;
+package com.elastic.controller;
 
+import com.elastic.util.ElasticSearchQuery;
+import com.elastic.Product;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

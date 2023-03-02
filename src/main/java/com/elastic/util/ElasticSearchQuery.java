@@ -1,8 +1,9 @@
-package com.elastic;
+package com.elastic.util;
 
 import co.elastic.clients.elasticsearch.ElasticsearchClient;
 import co.elastic.clients.elasticsearch.core.*;
 import co.elastic.clients.elasticsearch.core.search.Hit;
+import com.elastic.Product;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 
